@@ -4,11 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="730b8f83-9266-4f55-ad32-742514388686" name="Changes" comment="" />
+    <list default="true" id="730b8f83-9266-4f55-ad32-742514388686" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Chat/ChatBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Chat/IndividualChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Chat/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Friend/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Friend/FriendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/JobPost/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/JobPost/JobPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/JobPost/JobType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/JobPost/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/ImageStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/Like.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/PostStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/Share.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/University/FieldOfStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/University/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/User/Follow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/User/Qualification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/User/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/User/UserBannerImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/User/UserProfileImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/User/UserStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/User/UserStories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/User/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/User/WorkExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/enums/ChatRoomType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/enums/FriendRequestStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/enums/QualificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/enums/ReactionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,22 +62,22 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2j6QZU9EnM0fqRrXhSuXjQeFEts" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FinalBackendApplication.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/swanhtet/Desktop/Code/MyProjects/1.SocialMedia/bizconnect-backend"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FinalBackendApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/swanhtet/Desktop/Code/MyProjects/1.SocialMedia/bizconnect-backend&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
