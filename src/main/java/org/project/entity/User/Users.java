@@ -2,13 +2,14 @@ package org.project.entity.User;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.project.entity.Chat.ChatBox;
 import org.project.entity.Friend.Friend;
 import org.project.entity.Friend.FriendRequest;
+import org.project.entity.Post.Comment;
 import org.project.entity.Subscription;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
@@ -37,7 +38,7 @@ public class Users {
     private String address;
 
     @ElementCollection(fetch = FetchType.EAGER)
-    private List<String> roles;
+    private Set<String> roles;
 
     @OneToMany(mappedBy = "users")
     private Set<Friend> friends;
@@ -47,6 +48,15 @@ public class Users {
 
     @OneToMany(mappedBy = "recipient")
     private Set<FriendRequest> receivedFriendRequests;
+
+    @OneToMany(mappedBy = "users")
+    private Set<Comment> comments;
+
+    @OneToMany(mappedBy = "users")
+    private Set<WorkExperience> workExperiences;
+
+    @OneToMany(mappedBy = "users")
+    private Set<ChatBox> chatBoxes;
 
     private String userName;
     private String gender;

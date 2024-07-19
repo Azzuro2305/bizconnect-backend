@@ -34,7 +34,7 @@ public class Like {
 
     @ManyToOne
     @JoinColumn(name = "image_id")
-    private Image image;
+    private SubPost subPost;
 
     @Enumerated(EnumType.STRING)
     @JoinColumn(name = "reaction_type", nullable = false)

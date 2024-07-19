@@ -26,7 +26,7 @@ public class FriendRequest {
     @JoinColumn(name = "receiver_id")
     private Users recipient;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @Enumerated(EnumType.STRING)
     @JoinColumn(name = "status")
     private FriendRequestStatus status;
 

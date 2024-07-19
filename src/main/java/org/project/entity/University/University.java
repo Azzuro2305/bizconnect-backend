@@ -1,11 +1,11 @@
 package org.project.entity.University;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
+import org.project.entity.User.Qualification;
 
 import java.time.LocalDateTime;
+import java.util.Set;
 import java.util.UUID;
 
 @Getter
@@ -18,7 +18,13 @@ public class University {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    private String university;
+    @OneToMany(mappedBy = "university", cascade = CascadeType.ALL)
+    private Set<Qualification> qualifications;
+
+    @OneToMany(mappedBy = "university", cascade = CascadeType.ALL)
+    private Set<FieldOfStudy> fieldOfStudies;
+
+    private String name;
     private String address;
     private String postalCode;
 

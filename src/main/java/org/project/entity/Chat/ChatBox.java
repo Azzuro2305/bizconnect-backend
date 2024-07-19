@@ -3,6 +3,7 @@ package org.project.entity.Chat;
 import jakarta.persistence.*;
 import lombok.*;
 import org.project.entity.User.Users;
+import org.project.enums.ChatRoomType;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -29,6 +30,10 @@ public class ChatBox {
 
     @OneToMany
     private List<Message> messages;
+
+    @Enumerated(EnumType.STRING)
+    @JoinColumn(name = "chatroom_type", nullable = false)
+    private ChatRoomType chatRoomType;
 
     private String name;
 

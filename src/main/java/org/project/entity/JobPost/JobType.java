@@ -5,6 +5,7 @@ import lombok.*;
 import org.project.entity.User.Users;
 
 import java.time.LocalDateTime;
+import java.util.Set;
 import java.util.UUID;
 
 @Getter
@@ -20,6 +21,9 @@ public class JobType {
     @ManyToOne
     @JoinColumn(name = "created_by")
     private Users users;
+
+    @OneToMany(mappedBy = "jobType", cascade = CascadeType.ALL)
+    private Set<JobType> jobTypes;
 
     private String name;
     private boolean isVerified;

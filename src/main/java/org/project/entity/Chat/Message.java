@@ -19,7 +19,7 @@ public class Message {
 
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private Users users;
+    private Users sender;
 
     @ManyToOne
     @JoinColumn(name = "chatbox_id")

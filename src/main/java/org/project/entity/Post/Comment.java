@@ -27,7 +27,7 @@ public class Comment {
 
     @ManyToOne
     @JoinColumn(name = "image_id")
-    private Image image;
+    private SubPost subPost;
 
     @Lob
     private String comment;

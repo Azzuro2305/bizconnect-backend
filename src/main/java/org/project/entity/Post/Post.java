@@ -2,7 +2,6 @@ package org.project.entity.Post;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.Fetch;
 import org.project.entity.User.Users;
 
 import java.time.LocalDateTime;
@@ -25,7 +24,7 @@ public class Post {
     private Users users;
 
     @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
-    private List<Image> image = new ArrayList<>();
+    private List<SubPost> subPosts = new ArrayList<>();
 
     @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
     private List<Like> like = new ArrayList<>();

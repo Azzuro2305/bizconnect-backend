@@ -11,7 +11,7 @@ import java.util.UUID;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Image {
+public class SubPost {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
@@ -22,7 +22,7 @@ public class Image {
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "image_statistics_id")
-    private ImageStatistics imageStatistics;
+    private SubPostStatistics subPostStatistics;
 
     @Lob
     private String caption;

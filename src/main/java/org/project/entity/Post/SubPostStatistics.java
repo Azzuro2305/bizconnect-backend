@@ -13,7 +13,7 @@ import java.util.UUID;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class ImageStatistics {
+public class SubPostStatistics {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;

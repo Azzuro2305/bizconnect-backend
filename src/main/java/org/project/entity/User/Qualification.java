@@ -3,6 +3,7 @@ package org.project.entity.User;
 import jakarta.persistence.*;
 import lombok.*;
 import org.project.entity.University.FieldOfStudy;
+import org.project.entity.University.University;
 import org.project.enums.QualificationType;
 
 import java.time.LocalDate;
@@ -19,13 +20,17 @@ public class Qualification {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "qualification_type_id")
+    @Enumerated(EnumType.STRING)
+    @JoinColumn(name = "qualification_type_id", nullable = false)
     private QualificationType qualificationType;
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "field_of_study_id")
     private FieldOfStudy fieldOfStudy;
+
+    @ManyToOne
+    @JoinColumn(name = "university_id")
+    private University university;
 
     @ManyToOne
     @JoinColumn(name = "user_id")

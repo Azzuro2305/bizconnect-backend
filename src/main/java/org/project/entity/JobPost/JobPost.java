@@ -21,6 +21,18 @@ public class JobPost {
     @JoinColumn(name = "user_id")
     private Users users;
 
+    @ManyToOne
+    @JoinColumn(name = "company_id")
+    private Company company;
+
+    @ManyToOne
+    @JoinColumn(name = "position_id")
+    private Position position;
+
+    @ManyToOne
+    @JoinColumn(name = "jobtype_id")
+    private JobType jobType;
+
     @Lob
     private String description;
 
