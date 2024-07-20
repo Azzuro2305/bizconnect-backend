@@ -6,21 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="730b8f83-9266-4f55-ad32-742514388686" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/Chat/ChatBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Chat/ChatBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/Chat/IndividualChat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/Chat/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Chat/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/JobPost/JobPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/JobPost/JobPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/JobPost/JobType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/JobPost/JobType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/JobPost/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/JobPost/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/SubPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/ImageStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/SubPostStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/Like.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/Like.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Post/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/University/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/University/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/User/Qualification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/User/Qualification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/User/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/User/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/User/WorkExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/User/WorkExperience.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

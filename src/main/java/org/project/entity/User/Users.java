@@ -58,13 +58,17 @@ public class Users {
     @OneToMany(mappedBy = "users")
     private Set<ChatBox> chatBoxes;
 
+    @OneToMany(mappedBy = "users")
+    private Set<UserProfileImages> userProfileImages;
+
+    @OneToMany(mappedBy = "users")
+    private Set<UserBannerImages> userBannerImages;
+
     private String userName;
     private String gender;
     private String age;
     private LocalDate dob;
     private String mail;
-    private String profileImg;
-    private String bannerImg;
     private String phoneNumber;
     private String password;
 
