@@ -6,7 +6,7 @@ import org.project.entity.Chat.ChatBox;
 import org.project.entity.Friend.Friend;
 import org.project.entity.Friend.FriendRequest;
 import org.project.entity.Post.Comment;
-import org.project.entity.Subscription;
+import org.project.entity.Subscription.Subscription;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

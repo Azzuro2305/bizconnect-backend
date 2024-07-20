@@ -5,7 +5,119 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="730b8f83-9266-4f55-ad32-742514388686" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/Auth/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/Chat/ChatBoxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/Chat/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/Friend/FriendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/Friend/FriendRequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/JobPost/CompanyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/JobPost/JobPostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/JobPost/JobTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/JobPost/PositionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/Post/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/Post/LikeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/Post/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/Post/PostStatisticsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/Post/ShareController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/Post/SubPostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/Post/SubPostStatisticsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/Subscription/SubscriptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/University/FieldOfStudyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/University/UniversityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/User/FollowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/User/QualificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/User/SkillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/User/UserBannerImagesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/User/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/User/UserProfileImagesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/User/UserStatisticsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/User/UserStoriesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/controller/User/WorkExperienceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/Chat/ChatBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/Chat/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/Friend/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/Friend/FriendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/JobPost/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/JobPost/JobPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/JobPost/JobType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/JobPost/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/Post/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/Post/Like.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/Post/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/Post/PostStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/Post/Share.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/Post/SubPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/Post/SubPostStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/Subscription/Subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/University/FieldOfStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/University/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/User/Follow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/User/Qualification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/User/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/User/UserBannerImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/User/UserProfileImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/User/UserStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/User/UserStories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/User/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/repo/User/WorkExperience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/Chat/ChatBoxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/Chat/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/Friend/FriendRequestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/Friend/FriendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/JobPost/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/JobPost/JobPostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/JobPost/JobTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/JobPost/PositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/Post/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/Post/LikeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/Post/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/Post/PostStatisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/Post/ShareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/Post/SubPostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/Post/SubPostStatisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/Subscription/SubscriptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/University/FieldOfStudyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/University/UniversityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/User/FollowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/User/QualificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/User/SkillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/User/UserBannerImagesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/User/UserProfileImagesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/User/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/User/UserStatisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/User/UserStoriesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/User/WorkExperienceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/Chat/ChatBoxServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/Chat/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/Friend/FriendRequestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/Friend/FriendServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/JobPost/CompanyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/JobPost/JobPostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/JobPost/JobTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/JobPost/PositionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/Post/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/Post/LikeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/Post/PostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/Post/PostStatisticsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/Post/ShareServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/Post/SubPostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/Post/SubPostStatisticsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/Subscription/SubscriptionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/University/FieldOfStudyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/University/UniversityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/User/FollowServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/User/QualificationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/User/SkillServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/User/UserBannerImagesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/User/UserProfileImagesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/User/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/User/UserStatisticsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/User/UserStoriesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/project/service/impl/User/WorkExperienceServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/Subscription/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/entity/User/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/entity/User/Users.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +127,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>

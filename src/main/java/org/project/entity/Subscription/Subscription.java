@@ -1,4 +1,4 @@
-package org.project.entity;
+package org.project.entity.Subscription;
 
 import jakarta.persistence.*;
 import lombok.*;
